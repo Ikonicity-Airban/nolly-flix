@@ -8,9 +8,7 @@ function MovieCard({ title, desc, img, no_likes, id }) {
           <img src="vite.svg" alt="img" />
         </div>
       </div>
-      <div className="bottom">
-        
-      </div>
+      <div className="bottom"></div>
     </div>
   );
 }
