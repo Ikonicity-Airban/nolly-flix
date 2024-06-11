@@ -2,6 +2,7 @@ import { movies } from "../movies";
 import MovieCard from "./MovieCard";
 
 function MovieList() {
+    
   return (
     <section>
       <div className="movie_list_container">

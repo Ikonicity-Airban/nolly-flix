@@ -7,6 +7,13 @@ nav {
   background-color: #234;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: 1.2rem;
+}
+
 section {
   width: 100%;
   display: flex;
@@ -62,14 +69,10 @@ section {
 }
 
 .movie-card__like {
-
-
 }
 
 .movie-card__desc {
-
 }
 
 movie-card__no-likes {
-
 }

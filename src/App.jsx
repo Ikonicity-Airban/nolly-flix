@@ -10,6 +10,7 @@ function App() {
       <nav>
         <div className="logo">
           <img src="vite.svg" alt="logo" />
+          <h2>Nolly-Flix</h2>
         </div>
         <ul>
           <li>
