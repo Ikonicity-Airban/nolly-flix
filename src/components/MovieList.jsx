@@ -5,9 +5,11 @@ function MovieList() {
   return (
     <section>
       <div className="movie_list_container">
-        {movies.map((movie) => (
-          <MovieCard {...movie} key={movie.id} />
-        ))}
+        {movies
+          .sort((a, b) => a.no_likes - b.no_likes)
+          .map((movie) => (
+            <MovieCard {...movie} key={movie.id} />
+          ))}
       </div>
     </section>
   );

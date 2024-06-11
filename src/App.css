@@ -28,11 +28,12 @@ section {
 .movie-card {
   width: clamp(280px, 100%, 320px);
   height: clamp(10rem, 30rem, 400px);
-  background-color: #ddd3;
+  background-color: #fff4;
   border-radius: 0.5rem;
   flex-direction: column;
   display: flex;
   overflow: hidden;
+  box-shadow: 1px, 1px, 10px #0009;
 }
 
 .movie-card__top {
@@ -50,5 +51,25 @@ section {
 }
 
 .movie-card__title {
+  color: transparent;
+  background: linear-gradient(to right, gold, #fff);
+  background-clip: text;
+}
+
+.movie-card:first-child {
+  background-color: rgb(104, 89, 4);
+  color: #fff;
+}
+
+.movie-card__like {
+
+
+}
+
+.movie-card__desc {
+
+}
+
+movie-card__no-likes {
 
 }
